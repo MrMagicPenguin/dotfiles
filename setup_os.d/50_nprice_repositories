@@ -36,4 +36,4 @@ function git_clone() {
     fi
 }
 
-git_clone "git@github.com:rickprice/VimWikiFiles.git" "vimwiki"
+# git_clone "git@github.com:rickprice/VimWikiFiles.git" "vimwiki"
