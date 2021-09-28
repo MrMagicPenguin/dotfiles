@@ -9,7 +9,8 @@ trap 'last_command=$current_command; current_command=$BASH_COMMAND' DEBUG
 trap 'echo "\"${last_command}\" command failed with exit code $?."' EXIT
 
 ## Neovim
-# 404 Error on nightly, just grab regular one
+# 404 Error on neovim-nightly-bin (I think it was deleted), just grab regular one
+# yay --noconfirm -S neovim-git
 yay --noconfirm -S neovim
 
 ## Required for Neovim
