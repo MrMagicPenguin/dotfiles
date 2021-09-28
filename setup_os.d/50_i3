@@ -17,7 +17,7 @@ yay --noconfirm -S picom
 # yay --noconfirm -S network-manager-applet-git
 yay --noconfirm -S xfce4-power-manager
 # +++ FIX THIS +++ This needs to be uncommented when a bug upstream is fixed
-yay --noconfirm -S pamac-aur
+# yay --noconfirm -S pamac-aur
 # +++ FIX THIS +++ This needs to be uncommented when a bug upstream is fixed
 yay --noconfirm -S xautolock
 # yay --noconfirm -S i3lock-blur
