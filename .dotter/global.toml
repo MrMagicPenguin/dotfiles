@@ -66,9 +66,7 @@
 
 [local.files]
 "local/bin/enableExternalMonitor"="~/.local/bin/enableExternalMonitor"
-"local/bin/get-aws-profile"="~/.local/bin/get-aws-profile"
 "local/bin/ProcessRawImages"="~/.local/bin/ProcessRawImages"
-"local/bin/set_as_config.sh"="~/.local/bin/set_as_config.sh"
 
 [gitconfig.files]
 "home/gitconfig"="~/.gitconfig"
@@ -79,6 +77,7 @@
 [aws.files]
 "home/aws/config"="~/.aws/config"
 "home/aws/credentials"="~/.aws/credentials"
+# "local/bin/get-aws-profile"="~/.local/bin/get-aws-profile"
 
 [activestate.files]
 "home/camel"="~/.camel"
