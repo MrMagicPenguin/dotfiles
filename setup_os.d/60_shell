@@ -37,5 +37,5 @@ yay --noconfirm -S zoxide-git
 
 fish -c "fisher install PatrickF1/fzf.fish"
 fish -c "fisher install danhper/fish-ssh-agent"
-fish -c "fisher install rickprice/aws_mfa"
-fish -c "fisher install rickprice/HomeRepotTools_fish"
+# fish -c "fisher install rickprice/aws_mfa"
+# fish -c "fisher install rickprice/HomeRepotTools_fish"
