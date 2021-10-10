@@ -6,9 +6,6 @@
 [user]
     email = {{ user.email }}
     name = {{ user.fullname }}
-[submit-work "pivotaltracker"]
-    username = {{ pivotal.user }}
-    token = {{ pivotal.token }}
 [hub]
     host = github.com
 [pull]
@@ -21,7 +18,7 @@
 [init]
     defaultBranch = master
 [github]
-	user = {{ hub.user }}
+	user = {{ gitconfig.github_user }}
 [rebase]
 	autoStash = true
 [pager]
